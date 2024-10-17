@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "fp")(type "KiCad")(uri "${KIPRJMOD}/fp.pretty")(options "")(descr ""))
+  (lib (name "bmc_tht")(type "KiCad")(uri "C:/app-data/kicad5/bmc_tht.pretty")(options "")(descr ""))
+  (lib (name "bmc_smt_hs")(type "KiCad")(uri "C:/app-data/kicad5/bmc_smt_hs.pretty")(options "")(descr ""))
+  (lib (name "bmc_smt_reflow")(type "KiCad")(uri "C:/app-data/kicad5/bmc_smt_reflow.pretty")(options "")(descr ""))
+)

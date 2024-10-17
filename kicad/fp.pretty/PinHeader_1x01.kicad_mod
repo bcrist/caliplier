@@ -1,0 +1,76 @@
+(footprint "PinHeader_1x01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x03, 1.00mm pitch, single row")
+	(tags "Through hole pin header THT 1x03 1.00mm single row")
+	(property "Reference" "REF**"
+		(at 0 -1.56 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7e572d0d-dc5e-40fb-beff-4b81535fb08a")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VALUE**"
+		(at 3.3 0 0)
+		(layer "F.SilkS")
+		(uuid "a50ea237-e0ed-40f3-9eb4-60020167deef")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2cf4c12-b538-4b78-84c6-2e4ef889f7a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "260c1661-41f9-4194-afa5-a1270993d94e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5817a6e1-f8c1-40d3-ba58-1717e617a344")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32bd34a5-ef2b-4044-9db3-1f2019abe23d")
+	)
+)

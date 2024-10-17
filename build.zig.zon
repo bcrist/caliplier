@@ -1,0 +1,16 @@
+.{
+    .name = "caliplier",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.13.0",
+    .paths = .{""},
+    .dependencies = .{
+        .microbe = .{
+            .url = "git+https://github.com/bcrist/microbe#0393f21c1d373356c44758c006e440c5d06e7abf",
+            .hash = "122085049f6e73d3236a655bbf8b22981bc0b6657486a5ed7aaf9dba6e9404b105f8",
+        },
+        .@"microbe-rpi" = .{
+            .url = "git+https://github.com/bcrist/microbe-rpi#70c2b3cba87547e706a217f41c5f35615754ceda",
+            .hash = "12207eb8f1a63443727f065847fa0056c8df8d2296df4c0bac9fed28dd76a7c583f8",
+        },
+    },
+}
