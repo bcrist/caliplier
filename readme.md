@@ -17,3 +17,5 @@ There are many different variations on the serial format output by different cal
 * Last two bits are unused
 * There is no indication whether it is in mm or inches mode.  In mm mode, 1 ULP is 0.01mm, and in inches mode, 1 ULP is 0.0005".
 * The bus is idle for at least 5ms between packets
+
+![PXL_20241017_001500729](https://github.com/user-attachments/assets/ef0a3db9-4297-4528-91de-4439dca1619d)
