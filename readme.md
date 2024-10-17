@@ -12,7 +12,7 @@ There are many different variations on the serial format output by different cal
 * Data signal is stable whenever Clock signal is high
 * 24-bit packet, transferred over 8.1ms (+/- 0.1ms)
 * First bit is always 1
-* Next 20 bits are the unsigned magnitude
+* Next 20 bits are the unsigned magnitude (little-endian)
 * Next bit is 1 if negative
 * Last two bits are unused
 * There is no indication whether it is in mm or inches mode.  In mm mode, 1 ULP is 0.01mm, and in inches mode, 1 ULP is 0.0005".
